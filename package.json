@@ -1,6 +1,6 @@
 {
   "name": "x-websocket-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "配合x-websocket使用,命令行客户端工具",
   "main": "index.js",
   "bin": {

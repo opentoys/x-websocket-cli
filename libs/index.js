@@ -21,7 +21,8 @@ socket.on("connect",(data)=>{
 socket.on("url",(url)=>{
     console.log(url)
     client.getUrl(url,(err,res,body)=>{
-        socket.emit("urldata",body)
+        console.log(body)
+        socket.emit("urldata",url,body)
     })    
 })
 

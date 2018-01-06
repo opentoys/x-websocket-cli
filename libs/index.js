@@ -20,9 +20,9 @@ socket.on("connect",(data)=>{
 
 socket.on("url",(url)=>{
     console.log(url)
-    client.getUrl(url,(err,res,body)=>{
-        console.log(body)
-        socket.emit("urldata",url,body)
+    client.getUrl(url,(buf)=>{
+        console.log(buf)
+        socket.emit("urldata",url,buf)
     })    
 })
 

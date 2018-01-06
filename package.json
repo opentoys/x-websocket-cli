@@ -1,6 +1,6 @@
 {
   "name": "x-websocket-cli",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "配合x-websocket使用,命令行客户端工具",
   "main": "index.js",
   "bin": {
@@ -24,7 +24,6 @@
   "homepage": "https://github.com/coderswin/x-websocket-cli#readme",
   "dependencies": {
     "commander": "^2.12.2",
-    "request": "^2.83.0",
     "socket.io-client": "^2.0.4"
   }
 }
